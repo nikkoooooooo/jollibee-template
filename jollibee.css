@@ -1,0 +1,322 @@
+
+body {
+margin: 0;
+padding: 0;
+margin-bottom: 3000px;
+}
+
+
+.header{
+    background-color:#d6001c ;
+    height: 100px;
+   }
+
+
+
+
+.jollibee-logo{
+    width: 240px;
+    margin-top: 12px;
+    
+    }
+
+
+
+
+
+
+
+.orderbutton{
+color: white;
+background-color: #FA8003;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 12px;
+padding-bottom: 12px;
+font-weight: bold;
+font-family:'M PLUS Rounded 1c', sans-serif;
+font-size: 20px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+text-decoration: none;
+
+
+}
+
+a {
+text-decoration: none;
+color: white;
+
+}
+
+
+.orderbutton:hover{
+opacity: 0.7;
+
+
+}
+
+
+
+ul {
+display: inline-block;
+list-style: none;
+padding-left: 550px;
+padding-bottom: 30px;
+justify-content: right;
+align-items: center;
+position: absolute;
+left: 15%;
+top: 40%;
+}
+
+
+li {
+    display: inline-block;
+color: white;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 20px;
+font-weight: bold;
+margin-right: 10px;
+padding-right: 40px;
+cursor: pointer;
+}
+
+
+.content{
+display: flex;
+background-color: lightblue;
+
+}
+
+
+.homebanner{
+height: 500px;
+max-width: 1300px;
+overflow-x: hidden;
+
+}
+
+h1 {
+position: absolute;
+top: 20%;
+left: 30%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+color: white;
+}
+
+h2 {
+position: absolute;
+top: 30%;
+left: 8%;
+color:white;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 30px ;
+}
+
+h3 {
+position: absolute;
+top: 45%;
+left: 15%;
+color:white;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 30px;
+
+
+}
+
+
+.orderbuttontwo{
+position: absolute;
+top: 55%;
+left: 21%;
+color: white;
+background-color: #FA8003;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-weight: bold;
+font-family:'M PLUS Rounded 1c', sans-serif;
+font-size: 25px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+}
+
+
+
+
+.orderbuttontwo:hover{
+opacity: 0.9;
+
+
+}
+
+.orderbuttontwo:active{
+opacity: 0.5;
+
+
+}
+
+
+
+
+.process{
+display: flex;
+margin-top: 30px;
+margin-left: 100px;
+
+max-width: 1100px;
+border-bottom: gray;
+border-bottom-style:solid;
+
+
+
+
+
+}
+
+
+.threelogo{
+    
+width: 350px;
+margin-right: 50px;
+padding-left: 0px;
+
+
+
+}
+
+.threeimg{
+padding-left: 90px;
+
+
+
+}
+
+
+
+p {
+margin-top: 5px ;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 25px;
+
+
+
+
+}
+
+.orderpick{
+padding-left: 65px;
+
+
+}
+
+.downloadapp{
+padding-left: 47px;
+
+
+}
+
+.telephonenumber{
+padding-left: 115px
+
+
+}
+
+
+.Promos{
+display: flex;
+margin-top: 10px;
+    
+}
+
+.promospic{
+width: 310px;
+margin-left: 82px;
+
+
+
+}
+.promo{
+height: 400px;
+border-radius: 40px;
+
+
+
+}
+
+
+
+
+.exclusive{
+display: inline-block;
+margin-left: 480px;
+margin-top: 30px;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 35px;
+
+
+}
+
+.promobutton{
+    margin-top: 20px;
+    margin-left: 535px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.promosbutton{
+color: white;
+background-color: #FA8003;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 12px;
+padding-bottom: 12px;
+font-weight: bold;
+font-family:'M PLUS Rounded 1c', sans-serif;
+font-size: 20px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+
+
+
+}
+
+.col-sm-4{
+background-color: #d6001c;
+color: white;
+font-family:'M PLUS Rounded 1c', sans-serif;
+text-align: center;
+row-gap: 50px !important;
+font-size: 5px;
+}
+
+
+.menubtn{
+    color: white;
+    background-color: #FA8003;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+

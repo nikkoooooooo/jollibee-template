@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jollibeewebby</title>
+
+	<!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Logo</a>
+		</div>
+	</nav>
+	
+	<div class="container-fluid p-5 bg-primary text-white text-center">
+		<h1>My First Bootstrap Page</h1>
+		<p>Resize this responsive page to see the effect!</p> 
+	</div>
+		
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-12" style="border: 1px solid red;">
+				<img  class="threeimg" src="order_pickup-150x150 time.webp">
+				<p class="orderpick">Order & Pick Up</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-6" style="border: 1px solid red;">
+				<img  class="threeimg" src="order_pickup-150x150 time.webp">
+				<p class="orderpick">Order & Pick Up</p>
+			</div>
+			<div class="col-6" style="border: 1px solid red;">
+				<img  class="threeimg" src="order_pickup-150x150 time.webp">
+				<p class="orderpick">Order & Pick Up</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-4" style="border: 1px solid red;">
+				<img  class="threeimg" src="order_pickup-150x150 time.webp">
+				<p class="orderpick">Order & Pick Up</p>
+			</div>
+			<div class="col-4" style="border: 1px solid red;">
+				<img  class="threeimg" src="order_pickup-150x150 time.webp">
+				<p class="orderpick">Order & Pick Up</p>
+			</div>
+			<div class="col-4" style="border: 1px solid red;">
+				<img  class="threeimg" src="order_pickup-150x150 time.webp">
+				<p class="orderpick">Order & Pick Up</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<input name="test" type="text" id="demo"/>
+		<input name="test2" type="text" id="demo1"/>
+		<button onclick="myFunction()">Click me</button>
+		<p id="answer"></p>
+	</div>
+
+	<button type="button" class="btn">Basic</button>
+utton <btype="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
+</body>
+<footer>
+	
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+ function myFunction(){
+	var num_1 = document.getElementById("demo").value;
+  var num_2 = document.getElementById("demo1").value;
+
+  document.getElementById("answer").innerHTML = Number(num_1) + Number(num_2);
+ }
+</script>
+</html>
